@@ -19,6 +19,6 @@ return [
 
     // URL layanan OrderService
     'order_service' => [
-        'url' => env('ORDER_SERVICE_URL', 'http://order-service.test'),
+        'url' => env('ORDER_SERVICE_URL', 'http://localhost:8003'),
     ],
 ];
